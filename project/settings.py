@@ -17,7 +17,7 @@ import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://my_db_9thk_user:7uVd8AVf4hYE0njlZHL3892RbmrjHKTV@localhost:5432/my-db',
+        default=os.environ.get('postgresql://my_db_9thk_user:7uVd8AVf4hYE0njlZHL3892RbmrjHKTV@localhost:5432/my-db'),
         conn_max_age=600
     )
 }
