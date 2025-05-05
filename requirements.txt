@@ -35,3 +35,4 @@ protobuf==5.29.4  # Required dependency
 Pillow==10.0.1
 python-dateutil==2.8.2
 pytz==2024.1
+whitenoise==6.6.0
