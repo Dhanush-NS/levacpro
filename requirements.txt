@@ -25,6 +25,12 @@ PyJWT==2.9.0
 oauthlib==3.2.2
 requests==2.31.0
 
+# Google Generative AI
+google-generativeai==0.8.5
+google-auth==2.36.0
+google-api-python-client==2.153.0
+protobuf==5.29.4  # Required dependency
+
 # Utilities
 Pillow==10.0.1
 python-dateutil==2.8.2
